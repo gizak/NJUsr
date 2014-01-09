@@ -3,7 +3,7 @@ use LWP::UserAgent;
 package Usr;
 
 $URL_LOGIN='http://jwas3.nju.edu.cn:8080/jiaowu/login.do';
-%LOGIN_TOKEN=('userName'=>'091270015','password'=>'azonips');
+%LOGIN_TOKEN=('userName'=>'','password'=>'');
 
 $ua=LWP::UserAgent->new;
 $ua->agent($USER_AGENT);
